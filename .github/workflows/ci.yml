@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm run lint
   tests:
     needs: linter
     runs-on: ubuntu-latest
@@ -26,4 +25,3 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-      - run: npm run test
