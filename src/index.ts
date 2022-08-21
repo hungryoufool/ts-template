@@ -3,3 +3,5 @@ const calc = (a: number, b: number) => {
 }
 //   console.log(calc(1024, 29))
 
+export default calc
+
